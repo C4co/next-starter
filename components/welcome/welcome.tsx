@@ -6,6 +6,8 @@ export function Welcome(){
     <div className={style.welcome}>
       <h1 className={style.title}> CN Next starter </h1>
       <p className={style.description}> Stater project with Next and TypeScript. </p>
+
+      { process.env.NEXT_PUBLIC_VERSION }
     </div>
   )
 }

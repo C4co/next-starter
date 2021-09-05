@@ -1,6 +1,6 @@
 import { Welcome } from '../components'
 import { Page } from '../templates'
-import Head from "next/head"
+import Head from 'next/head'
 
 export default function Home(){
   return (

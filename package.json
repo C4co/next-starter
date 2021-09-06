@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest",
+    "cy": "cypress open",
+    "cy:headless": "cypress run"
   },
   "dependencies": {
     "next": "11.1.2",
@@ -13,8 +16,21 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.2.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
     "@types/node": "^16.7.10",
     "@types/react": "^17.0.20",
+    "babel-jest": "^27.1.0",
+    "cypress": "^8.3.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "latest",
+    "eslint-plugin-testing-library": "4.12.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.1.0",
+    "react-test-renderer": "17.0.2",
     "sass": "^1.39.0",
     "typescript": "^4.4.2"
   }

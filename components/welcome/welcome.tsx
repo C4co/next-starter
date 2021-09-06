@@ -4,10 +4,9 @@ import style from './welcome.module.scss'
 export function Welcome(){
   return (
     <div data-testid="welcome" className={style.welcome}>
-      <h1 className={style.title}> CN Next starter </h1>
-      <p className={style.description}> Stater project with Next and TypeScript. </p>
-
-      { process.env.NEXT_PUBLIC_VERSION }
+      <h1 data-testid="title" className={style.title}> CN Next starter </h1>
+      <p data-testid="description" className={style.description}> Stater project with Next and TypeScript. </p>
+      <span data-testid="version"> { process.env.NEXT_PUBLIC_VERSION } </span>
     </div>
   )
 }

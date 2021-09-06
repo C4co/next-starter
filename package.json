@@ -8,7 +8,8 @@
     "start": "next start",
     "test": "jest",
     "cy": "cypress open",
-    "cy:headless": "cypress run"
+    "cy:headless": "cypress run",
+    "e2e:ci": "start-server-and-test start http://localhost cy:headless"
   },
   "dependencies": {
     "next": "11.1.2",
@@ -32,6 +33,7 @@
     "jest": "^27.1.0",
     "react-test-renderer": "17.0.2",
     "sass": "^1.39.0",
+    "start-server-and-test": "^1.14.0",
     "typescript": "^4.4.2"
   }
 }

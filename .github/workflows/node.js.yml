@@ -9,6 +9,9 @@ on:
   pull_request:
     branches: [ master ]
 
+env:
+  NEXT_PUBLIC_VERSION: 'Version: 0.0.1'
+
 jobs:
   build:
 
@@ -26,7 +29,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        envkey_NEXT_PUBLIC_VERSION: 'Version: 0.0.1'
     - run: npm ci
     - run: npm run build
     - run: npm test

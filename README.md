@@ -1,5 +1,7 @@
 # CN Next Starter
 
+[![Node.js CI](https://github.com/C4co/cn-next-starter/actions/workflows/node.js.yml/badge.svg)](https://github.com/C4co/cn-next-starter/actions/workflows/node.js.yml)
+
 Next.js and typescript starter project
 
 ### Whats inside

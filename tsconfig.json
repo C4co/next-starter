@@ -15,7 +15,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": false,
+    "isolatedModules": true,
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
@@ -28,9 +28,15 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "jest.setup.js"
+    "jest.setup.ts"
   ],
   "exclude": [
     "node_modules"
+  ],
+  "types": [
+    "node",
+    "jest",
+    "@testing-library/jest-dom",
+    "@testing-library/jest-dom/extend-expect"
   ]
 }

@@ -12,6 +12,7 @@ Next.js and typescript starter project
 - Jest
 - Testing Library
 - Cypress
+- i18n
 
 ### New project
 

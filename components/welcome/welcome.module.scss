@@ -15,3 +15,12 @@
 .description{
   color: var(--font-color);
 }
+
+.buttons{
+  display: flex;
+}
+
+.button{
+  padding: 5px;
+  margin: 3px;
+}

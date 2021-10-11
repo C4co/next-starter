@@ -19,9 +19,11 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/components/*": [
-        "components/*"
-      ]
+      "@/components": [ "components/index" ],
+      "@/templates": [ "templates/index" ],
+      "@/services": [ "services/index" ],
+      "@/context": [ "context/index" ],
+      "@/content": [ "content/index" ],
     }
   },
   "include": [
@@ -36,6 +38,7 @@
   "types": [
     "node",
     "jest",
+    "cypress",
     "@testing-library/jest-dom",
     "@testing-library/jest-dom/extend-expect"
   ]

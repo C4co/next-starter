@@ -1,4 +1,6 @@
 import React from 'react'
+import Head from 'next/head'
+
 import style from './page.module.scss'
 
 type PageProps = {
@@ -8,6 +10,10 @@ type PageProps = {
 export function Page(props: PageProps){
   return (
     <div>
+      <Head>
+        <title> CN Next Starter </title>
+      </Head>
+
       { props.children }
     </div>
   )

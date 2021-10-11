@@ -6,3 +6,5 @@ describe('navigation', () => {
     cy.contains('Version: 0.0.1')
   })
 })
+
+export {}

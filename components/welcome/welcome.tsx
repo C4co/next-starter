@@ -1,4 +1,3 @@
-import React from 'react'
 import style from './welcome.module.scss'
 import { useTranslation } from 'react-i18next'
 

@@ -7,10 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest",
-    "cy": "cypress open",
-    "cy:headless": "cypress run",
-    "e2e:ci": "start-server-and-test start http://localhost:3000 cy:headless"
+    "test:unit": "jest",
+    "test:e2e": "cypress open",
+    "test:e2e:headless": "cypress run",
+    "test:ci": "start-server-and-test start http://localhost:3000 test:e2e:headless",
+    "test:full": "next build && jest && start-server-and-test start http://localhost:3000 test:e2e:headless"
   },
   "dependencies": {
     "i18next": "^21.0.0",

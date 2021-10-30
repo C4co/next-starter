@@ -19,12 +19,23 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@/components": [ "components/index" ],
-      "@/templates": [ "templates/index" ],
-      "@/services": [ "services/index" ],
-      "@/context": [ "context/index" ],
-      "@/content": [ "content/index" ],
-    }
+      "@/components": [
+        "components/index"
+      ],
+      "@/templates": [
+        "templates/index"
+      ],
+      "@/services": [
+        "services/index"
+      ],
+      "@/context": [
+        "context/index"
+      ],
+      "@/content": [
+        "content/index"
+      ]
+    },
+    "incremental": true
   },
   "include": [
     "next-env.d.ts",

@@ -7,7 +7,7 @@ import React, {
 
 const CountContext = createContext(null)
 
-function CountProvider(props){
+function CountProvider(props: any){
   const [count, setCount] = useState(0)
 
   const value = useMemo(() => [count, setCount], [count])
@@ -25,7 +25,7 @@ function useCount(){
   const [count, setCount] = context
 
   function increment(){
-    setCount(count => count + 1)
+    setCount((count: number) => count + 1)
   }
 
   return {

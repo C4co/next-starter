@@ -13,6 +13,7 @@ Next.js and typescript starter project
 - Testing Library
 - Cypress
 - i18n
+- SWR
 
 ### New project
 

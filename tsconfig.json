@@ -33,6 +33,9 @@
       ],
       "@/content": [
         "content/index"
+      ],
+      "@/types": [
+        "types/index"
       ]
     },
     "incremental": true

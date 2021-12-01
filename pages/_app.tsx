@@ -1,5 +1,4 @@
-import '../styles/variables.scss'
-import '../styles/reset.scss'
+import '../styles/style.scss';
 import { initReactI18next } from 'react-i18next'
 import i18n from 'i18next'
 import { CONTENT } from '../content'

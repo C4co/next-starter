@@ -1,6 +1,10 @@
+import '@fontsource/roboto-condensed/400.css'
+import '@fontsource/roboto-condensed/700.css'
 import '../styles/style.scss'
+
 import { initReactI18next } from 'react-i18next'
 import i18n from 'i18next'
+
 import { CONTENT } from '../content'
 
 i18n.use(initReactI18next).init(CONTENT)

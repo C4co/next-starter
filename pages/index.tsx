@@ -7,7 +7,7 @@ export default function Home(){
   if(isLoading){
     return (
       <Page>
-        <h1> loading... </h1>
+        <h1 className="font-bold"> loading... </h1>
        </Page>
     )
   }
@@ -15,7 +15,7 @@ export default function Home(){
   if(isError){
     return (
       <Page>
-        <h1> error </h1>
+        <h1 className="font-bold text-red-500"> error </h1>
       </Page>
     )
   }
@@ -24,7 +24,7 @@ export default function Home(){
 
   return (
     <Page>
-      <h1> home page </h1>
+      <h1 className="font-bold"> home page </h1>
     </Page>
   )
 }

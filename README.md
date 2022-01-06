@@ -8,7 +8,7 @@ Next.js and typescript starter project
 
 - NextJS
 - Typescript
-- Sass
+- Tailwind
 - Jest
 - Testing Library
 - Cypress

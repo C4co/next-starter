@@ -19,4 +19,15 @@ import './commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
-export {}
+declare global {
+  namespace Cypress {
+    interface Chainable {
+      responsive(action: Function): Chainable<Element>
+      desktop(action: Function): Chainable<Element>
+      tablet(action: Function): Chainable<Element>
+      mobile(action: Function): Chainable<Element>
+    }
+  }
+}
+
+export { }

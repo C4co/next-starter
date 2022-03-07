@@ -36,6 +36,9 @@
       ],
       "@/types": [
         "types/index"
+      ],
+      "@/utils": [
+        "utils/index"
       ]
     },
     "incremental": true

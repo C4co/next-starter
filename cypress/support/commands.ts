@@ -31,13 +31,13 @@ Cypress.Commands.add('desktop', (action: Function) => {
 })
 
 Cypress.Commands.add('tablet', (action: Function) => {
-  // Ipad 2 
+  // Ipad 2
   cy.viewport(768, 1024)
   action()
 })
 
 Cypress.Commands.add('mobile', (action: Function) => {
-  // Iphone 6+ 
+  // Iphone 6+
   cy.viewport(414, 736)
   action()
 })
@@ -47,11 +47,11 @@ Cypress.Commands.add('responsive', (action: Function) => {
   cy.viewport(1280, 800)
   action()
 
-  // Ipad 2 
+  // Ipad 2
   cy.viewport(768, 1024)
   action()
 
-  // Iphone 6+ 
+  // Iphone 6+
   cy.viewport(414, 736)
   action()
 })

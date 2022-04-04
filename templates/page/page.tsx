@@ -6,14 +6,14 @@ type PageProps = {
   children: any
 }
 
-export function Page(props: PageProps){
+export function Page(props: PageProps) {
   return (
     <div>
       <Head>
         <title> CN Next Starter </title>
       </Head>
 
-      { props.children }
+      {props.children}
     </div>
   )
 }

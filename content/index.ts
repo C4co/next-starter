@@ -6,8 +6,8 @@ export const CONTENT = {
     en: EN,
     pt_BR: PT_BR
   },
-  lng: "en",
-  fallbackLng: "en",
+  lng: 'en',
+  fallbackLng: 'en',
 
   interpolation: {
     escapeValue: false

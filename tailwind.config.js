@@ -23,6 +23,10 @@ module.exports = {
         // => @media (max-width: 639px) { ... }
       },
 
+      fontFamily: {
+        'sans': ['"Roboto Condensed"', 'sans-serif']
+      },
+
     },
   },
   plugins: [],

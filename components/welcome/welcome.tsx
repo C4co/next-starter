@@ -11,10 +11,12 @@ export function Welcome() {
     i18n.changeLanguage('en')
   }
 
+  const description = t('description')
+
   return (
     <div data-testid="welcome">
       <h1 data-testid="title"> CN Next starter </h1>
-      <p data-testid="description"> {t('description')} </p>
+      <p data-testid="description"> {description} </p>
       <span data-testid="version"> {process.env.NEXT_PUBLIC_VERSION} </span>
 
       <br />

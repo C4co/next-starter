@@ -56,4 +56,4 @@ Cypress.Commands.add('responsive', (action: Function) => {
   action()
 })
 
-export { }
+export {}

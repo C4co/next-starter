@@ -6,4 +6,4 @@ describe('navigation', () => {
   })
 })
 
-export { }
+export {}

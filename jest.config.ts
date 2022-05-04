@@ -1,4 +1,4 @@
-export default {
+const jestConfig = {
   collectCoverageFrom: [
     '**/*.{js,jsx,ts,tsx}',
     '!**/*.d.ts',
@@ -16,13 +16,13 @@ export default {
     https://jestjs.io/docs/webpack#handling-static-assets */
     '^.+\\.(jpg|jpeg|png|gif|webp|svg)$': '<rootDir>/__mocks__/fileMock.ts',
 
-    '^@/components/(.*)$': '<rootDir>/components/$1'
+    '^@/components/(.*)$': '<rootDir>/components/$1',
   },
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   testPathIgnorePatterns: [
     '<rootDir>/node_modules/',
     '<rootDir>/.next/',
-    '<rootDir>/cypress/'
+    '<rootDir>/cypress/',
   ],
   testEnvironment: 'jsdom',
   transform: {
@@ -35,3 +35,5 @@ export default {
     '^.+\\.module\\.(css|sass|scss)$',
   ],
 }
+
+export default jestConfig

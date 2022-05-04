@@ -46,6 +46,7 @@
     "husky": "^7.0.4",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.0.3",
+    "jest-environment-jsdom": "^28.0.2",
     "postcss": "^8.4.13",
     "react-test-renderer": "18.1.0",
     "start-server-and-test": "^1.14.0",

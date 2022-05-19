@@ -13,8 +13,7 @@ env:
   NEXT_PUBLIC_VERSION: 'Version: 0.0.1'
 
 jobs:
-  # build
-  build:
+  build-test:
     runs-on: ubuntu-latest
 
     strategy:
@@ -34,17 +33,15 @@ jobs:
       - run: npm run lint
       - run: npm run test:unit
 
-  # integration tests
-  e2e:
+  test-e2e:
     runs-on: ubuntu-latest
-
-    needs: build
     steps:
       - name: config
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
       - name: cypress run
         uses: cypress-io/github-action@v2
         with:
+          build: npm run build
           browser: chrome
           headless: true
           start: npm start

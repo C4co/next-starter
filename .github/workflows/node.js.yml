@@ -13,7 +13,7 @@ env:
   NEXT_PUBLIC_VERSION: 'Version: 0.0.1'
 
 jobs:
-  build:
+  build-test:
     runs-on: ubuntu-latest
 
     strategy:
@@ -23,7 +23,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
@@ -33,12 +33,12 @@ jobs:
       - run: npm run lint
       - run: npm run test:unit
 
-  cypress-run:
+  test-e2e:
     runs-on: ubuntu-latest
     steps:
-      - name: Cypress
+      - name: config
         uses: actions/checkout@v2
-      - name: Cypress run
+      - name: cypress run
         uses: cypress-io/github-action@v2
         with:
           build: npm run build

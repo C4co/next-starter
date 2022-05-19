@@ -32,4 +32,15 @@ jobs:
       - run: npm run build --if-present
       - run: npm run lint
       - run: npm run test:unit
-      - run: npm run test:ci
+
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cypress
+        uses: actions/checkout@v2
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          browser: chrome
+          headless: true
+          start: npm start

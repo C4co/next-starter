@@ -12,7 +12,7 @@
     "test:e2e": "cypress open",
     "test:e2e:headless": "cypress run",
     "test:ci": "start-server-and-test start http://localhost:4000 test:e2e:headless",
-    "test:full": "next build && jest && start-server-and-test start http://localhost:4000 test:e2e:headless"
+    "test:full": "npm run test:unit && npm run test:ci && npm run lint"
   },
   "dependencies": {
     "@fontsource/roboto-condensed": "^4.5.8",

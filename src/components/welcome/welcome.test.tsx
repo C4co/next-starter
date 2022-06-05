@@ -1,12 +1,13 @@
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import { Welcome } from './welcome'
 
 describe('<Welcome /> component', () => {
   test('Check initial render', () => {
-    const { getByTestId } = render(<Welcome />)
-    expect(getByTestId('welcome')).toBeInTheDocument()
-    expect(getByTestId('title')).toBeInTheDocument()
-    expect(getByTestId('description')).toBeInTheDocument()
-    expect(getByTestId('version')).toBeInTheDocument()
+    render(<Welcome />)
+
+    expect(screen.getByTestId('welcome')).toBeInTheDocument()
+    expect(screen.getByTestId('title')).toBeInTheDocument()
+    expect(screen.getByTestId('description')).toBeInTheDocument()
+    expect(screen.getByTestId('version')).toBeInTheDocument()
   })
 })

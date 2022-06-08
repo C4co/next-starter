@@ -41,4 +41,6 @@
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts"],
   "exclude": ["node_modules"]
+  //fix conflicts with jest and cypress
+  //"exclude": ["node_modules", "./cypress.config.ts", "./cypress"]
 }

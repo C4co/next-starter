@@ -11,7 +11,6 @@ Next.js and typescript starter project
 - Tailwind
 - Jest
 - Testing Library
-- Cypress
 - i18n
 - SWR
 

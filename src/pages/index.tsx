@@ -1,4 +1,4 @@
-import { Page } from '@/templates'
+import { Page } from 'layouts'
 import { useLoremIpsum } from '@/services'
 
 export default function Home() {
@@ -19,8 +19,6 @@ export default function Home() {
       </Page>
     )
   }
-
-  console.log(data)
 
   return (
     <Page>

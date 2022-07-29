@@ -19,8 +19,8 @@
       "@/components": [
         "components/"
       ],
-      "@/templates": [
-        "templates/"
+      "@/layouts": [
+        "layouts/"
       ],
       "@/services": [
         "services/"

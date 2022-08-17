@@ -9,7 +9,7 @@ export function Page({ children, title = 'CN Next Starter' }: PageProps) {
   return (
     <div>
       <Head>
-        <title> {title} </title>
+        <title>{title}</title>
       </Head>
 
       {children}

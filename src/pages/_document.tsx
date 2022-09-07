@@ -20,10 +20,7 @@ class MyDocument extends Document {
 
           <meta property="og:title" content="Next app starter - title" />
           <meta property="og:type" content="Next app starter - description" />
-          <meta
-            property="og:url"
-            content="https://cn-next-starter.vercel.app/"
-          />
+          <meta property="og:url" content="next-starter-project.netlify.app" />
           <meta
             property="og:image"
             content="https://res.cloudinary.com/c4co/image/upload/v1638714592/Projects/opengraph_fl61uv.jpg"
@@ -35,11 +32,11 @@ class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             property="twitter:domain"
-            content="https://cn-next-starter.vercel.app/"
+            content="next-starter-project.netlify.app"
           />
           <meta
             property="twitter:url"
-            content="https://cn-next-starter.vercel.app/"
+            content="next-starter-project.netlify.app"
           />
           <meta name="twitter:title" content="Next app starter - title" />
           <meta
@@ -87,7 +84,7 @@ class MyDocument extends Document {
           <meta name="msapplication-navbutton-color" content="#000000" />
           <meta
             name="msapplication-starturl"
-            content="https://cn-next-starter.vercel.app/"
+            content="next-starter-project.netlify.app"
           />
 
           <meta name="apple-mobile-web-app-title" content="CN Next Starter" />

@@ -5,7 +5,7 @@ type PageProps = {
   title?: string
 }
 
-export function Page({ children, title = 'CN Next Starter' }: PageProps) {
+export function Page({ children, title = 'Next Starter' }: PageProps) {
   return (
     <div>
       <Head>

@@ -1,6 +1,6 @@
-# CN Next Starter
+# Next Starter
 
-[![Node.js CI](https://github.com/C4co/cn-next-starter/actions/workflows/node.js.yml/badge.svg)](https://github.com/C4co/cn-next-starter/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/C4co/next-starter/actions/workflows/node.js.yml/badge.svg)](https://github.com/C4co/next-starter/actions/workflows/node.js.yml)
 
 Next.js and typescript starter project
 
@@ -17,7 +17,7 @@ Next.js and typescript starter project
 ### New project
 
 ```
-npx create-next-app --use-npm --example https://github.com/C4co/cn-next-starter
+npx create-next-app --use-npm --example https://github.com/C4co/next-starter
 ```
 
 ### Commands

@@ -13,6 +13,7 @@ Next.js and typescript starter project
 - Testing Library
 - i18n
 - SWR
+- Playright
 
 ### New project
 
@@ -29,6 +30,12 @@ npm run dev
 ```
 
 run unitary tests(jest and testing library)
+
+```
+npm run test:unit
+```
+
+run e2e tests(playwright)
 
 ```
 npm run test:unit

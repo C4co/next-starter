@@ -28,15 +28,16 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - run: npm ci
+      - name: 'Install dependencies'
+        run: npm ci
       - name: 'Building project'
-      - run: npm run build --if-present
+        run: npm run build --if-present
       - name: 'Runing lint'
-      - run: npm run lint
+        run: npm run lint
       - name: 'Check code format'
-      - run: npm run format
+        run: npm run format
       - name: 'Running unitary tests'
-      - run: npm run test:unit
+        run: npm run test:unit
       - name: 'Install Playwright Browsers'
         run: npx playwright install --with-deps
       - name: 'Run Playwright(e2e) tests'

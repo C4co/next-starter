@@ -6,14 +6,14 @@ Next.js and typescript starter project
 
 ### Whats inside
 
-- NextJS
-- Typescript
-- Tailwind
-- Jest
-- Testing Library
-- i18n
-- React Query
-- Playright
+- 🏗 [NextJS](https://nextjs.org/)
+- 🍎 [Typescript](https://www.typescriptlang.org/)
+- 💅 [Tailwind](https://tailwindcss.com/)
+- 🤡 [Jest](https://jestjs.io/)
+- 👀 [Testing Library](https://testing-library.com/)
+- 🇯🇵 [React i18next](https://react.i18next.com/)
+- 🚘 [React Query](https://react-query-v3.tanstack.com/)
+- 🎃 [Playwright](https://playwright.dev/)
 
 ### New project
 
@@ -46,6 +46,10 @@ running all tests and checks
 ```
 npm run test:full
 ```
+
+### Deploy
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6172a35e-bbcf-4822-922d-4756f0c99d81/deploy-status)](https://app.netlify.com/sites/next-starter-project/deploys)
 
 ---
 

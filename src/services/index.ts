@@ -1,5 +1,5 @@
 import Axios from 'axios'
-import useSWR from 'swr'
+import { useQuery } from 'react-query'
 
 export const HTTP = Axios.create({
   baseURL: 'https://baconipsum.com/',
@@ -8,20 +8,11 @@ export const HTTP = Axios.create({
   },
 })
 
-export async function fetcher(url: string) {
-  const response = await HTTP.get(url)
-  return response.data
-}
-
 export function useLoremIpsum() {
-  const { data, error } = useSWR(
-    '/api/?type=all-meat&paras=2&start-with-lorem=1',
-    fetcher
-  )
-
-  return {
-    data: data,
-    isLoading: !error && !data,
-    isError: error,
-  }
+  return useQuery('lorem_ipsum', async () => {
+    const response = await HTTP.get(
+      '/api/?type=all-meat&paras=1&start-with-lorem=1'
+    )
+    return response.data
+  })
 }

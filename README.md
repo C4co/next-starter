@@ -12,7 +12,7 @@ Next.js and typescript starter project
 - Jest
 - Testing Library
 - i18n
-- SWR
+- React Query
 - Playright
 
 ### New project

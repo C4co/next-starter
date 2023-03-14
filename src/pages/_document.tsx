@@ -21,10 +21,7 @@ class MyDocument extends Document {
           <meta property="og:title" content="Next app starter - title" />
           <meta property="og:type" content="Next app starter - description" />
           <meta property="og:url" content="next-starter-project.netlify.app" />
-          <meta
-            property="og:image"
-            content="https://res.cloudinary.com/c4co/image/upload/v1638714592/Projects/opengraph_fl61uv.jpg"
-          />
+          <meta property="og:image" content="/og.jpg" />
           <meta property="og:type" content="website" />
 
           {/* twitter */}
@@ -43,35 +40,30 @@ class MyDocument extends Document {
             name="twitter:description"
             content="Next app starter - description"
           />
-          <meta
-            name="twitter:image"
-            content="https://res.cloudinary.com/c4co/image/upload/v1638714592/Projects/opengraph_fl61uv.jpg"
-          />
+          <meta name="twitter:image" content="/og.jpg" />
 
           {/* icons */}
 
           <meta name="msapplication-TileColor" content="#da532c " />
+
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="https://res.cloudinary.com/c4co/image/upload/v1638714923/Projects/apple-touch-icon_xwpbc2.png"
+            href="/icons/apple-touch-icon.png"
           />
+
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="https://res.cloudinary.com/c4co/image/upload/v1638714923/Projects/favicon-32x32_bbyasm.png"
+            href="/icons/icon-32x32.png"
           />
+
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="https://res.cloudinary.com/c4co/image/upload/v1638714923/Projects/favicon-16x16_i8wujj.png"
-          />
-          <link
-            rel="mask-icon"
-            href="https://res.cloudinary.com/c4co/image/upload/v1638715109/Projects/safari-pinned-tab_ayqwce.svg"
-            color="#000000"
+            href="/icons/icon-16x16.png"
           />
 
           {/* app */}

@@ -50,6 +50,7 @@ npm run test:full
 ### Deploy
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6172a35e-bbcf-4822-922d-4756f0c99d81/deploy-status)](https://app.netlify.com/sites/next-starter-project/deploys)
+[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=next-starter-rho-nine)](https://next-starter-rho-nine.vercel.app/)
 
 ---
 

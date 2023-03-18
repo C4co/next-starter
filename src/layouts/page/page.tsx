@@ -7,7 +7,7 @@ type PageProps = {
 
 export function Page({ children, title = 'Next Starter' }: PageProps) {
   return (
-    <div>
+    <div className="min-h-screen bg-color">
       <Head>
         <title>{title}</title>
       </Head>

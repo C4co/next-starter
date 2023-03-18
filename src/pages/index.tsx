@@ -1,5 +1,6 @@
-import { Page } from 'layouts'
+import { Page } from '@/layouts'
 import { useLoremIpsum } from '@/services'
+import { ThemeChanger } from '@/components'
 
 export default function Home() {
   const { data, isError, isLoading } = useLoremIpsum()
@@ -22,7 +23,8 @@ export default function Home() {
 
   return (
     <Page>
-      <h1 className="font-bold"> home page </h1>
+      <ThemeChanger />
+      <h1 className="font-bold text-color"> home page </h1>
     </Page>
   )
 }

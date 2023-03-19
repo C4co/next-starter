@@ -8,7 +8,7 @@ export default function Home() {
   if (isLoading) {
     return (
       <Page>
-        <h1 className="font-bold"> loading... </h1>
+        <p className="text-color text-lg"> Loading... </p>
       </Page>
     )
   }
@@ -16,7 +16,7 @@ export default function Home() {
   if (isError) {
     return (
       <Page>
-        <h1 className="font-bold text-red-500"> error </h1>
+        <h1 className="text-red-500 text-lg"> Something went wrong </h1>
       </Page>
     )
   }
@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <Page>
       <ThemeChanger />
-      <h1 className="font-bold text-color"> home page </h1>
+      <h1 className="text-color text-2xl"> Next Starter </h1>
     </Page>
   )
 }

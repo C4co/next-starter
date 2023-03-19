@@ -1,23 +1,28 @@
 import { useTheme } from 'next-themes'
+import { FiMoon, FiSun } from 'react-icons/fi'
 
 export function ThemeChanger() {
   const { theme, setTheme } = useTheme()
 
-  return (
-    <div className="border border-color p-4 flex flex-col gap-2 w-[300px] justify-start items-start">
-      <p className="text-color">The current theme is: {theme}</p>
+  if (theme === 'dark') {
+    return (
       <button
-        className="text-color border border-color p-2"
+        className="bg-white w-[30px] h-[30px] flex justify-center items-center rounded-full"
         onClick={() => setTheme('light')}
       >
-        Light Mode
+        <FiSun className="text-black" />
       </button>
+    )
+  }
+
+  if (theme === 'light') {
+    return (
       <button
-        className="text-color border border-color p-2"
+        className="bg-black w-[30px] h-[30px] flex justify-center items-center rounded-full"
         onClick={() => setTheme('dark')}
       >
-        Dark Mode
+        <FiMoon className="text-white" />
       </button>
-    </div>
-  )
+    )
+  }
 }

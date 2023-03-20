@@ -1,8 +1,13 @@
 import { useTheme } from 'next-themes'
+import { useEffect } from 'react'
 import { FiMoon, FiSun } from 'react-icons/fi'
 
 export function ThemeChanger() {
-  const { theme, setTheme } = useTheme()
+  const { theme, setTheme, systemTheme } = useTheme()
+
+  useEffect(() => {
+    setTheme(systemTheme)
+  }, [systemTheme, setTheme])
 
   if (theme === 'dark') {
     return (

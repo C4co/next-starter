@@ -1,5 +1,5 @@
 import { Page } from '@/layouts'
-import { useLoremIpsum } from '@/services'
+import { useLoremIpsum } from '@/repositories'
 import { ThemeChanger } from '@/components'
 
 export default function Home() {

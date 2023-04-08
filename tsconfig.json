@@ -22,7 +22,8 @@
       "@/content": ["content/"],
       "@/types": ["types/"],
       "@/utils": ["utils/"],
-      "@/atoms": ["atoms/"]
+      "@/atoms": ["atoms/"],
+      "@/repositories": ["repositories/"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts"],

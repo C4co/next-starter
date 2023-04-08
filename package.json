@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start -p 3000",
     "lint": "next lint",
-    "format": "prettier --check './src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "format": "prettier --check ./src/**/*.{js,jsx,ts,tsx,css,md,json} --config ./.prettierrc",
+    "format:fix": "prettier --write ./src/**/*.{js,jsx,ts,tsx,css,md,json} --config ./.prettierrc",
     "test:unit": "jest ./src/",
     "test:e2e": "npx playwright test",
     "test:full": "npm run build && npm run test:unit && npm run lint && npm run format && npm run test:e2e"

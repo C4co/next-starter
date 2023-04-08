@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import { Welcome } from './welcome'
+import { Welcome } from './Welcome'
 
 describe('<Welcome /> component', () => {
   test('Check initial render', () => {

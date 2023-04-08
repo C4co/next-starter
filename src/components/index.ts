@@ -1,2 +1,2 @@
-export * from './welcome/welcome'
-export * from './ThemeButton/ThemeButton'
+export * from './shared/Welcome/Welcome'
+export * from './shared/ThemeButton/ThemeButton'

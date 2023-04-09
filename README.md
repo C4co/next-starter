@@ -4,7 +4,7 @@
 
 Next.js and typescript starter project
 
-### Whats inside
+### What's inside
 
 - [NextJS](https://nextjs.org/)
 - [Typescript](https://www.typescriptlang.org/)

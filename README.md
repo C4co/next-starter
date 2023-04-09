@@ -36,7 +36,7 @@ Next.js and typescript starter project
 ├──📁 utils
 ```
 
-- **atoms** - shared state atoms by Jotai
+- **atoms** - shared atoms by Jotai
 - **components/shared** - components shared for all project
 - **components/partials** - components for specific feature
 - **content** - isolated content to be translated
